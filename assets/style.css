@@ -58,7 +58,7 @@
 .img-Portfoliopic{
     width: 300px;
 }
-.Contact{
+.About, .Contact, .filler1 {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -68,17 +68,34 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 20px;
+    
+}
+.AboutMeHeader {
+    display: flex;
+    flex-direction: column;
+}
+.AboutMeHeader h2{
     text-align: center;
+    padding: 40px;
+}
+.filler1{
+    display: flex;
+    flex-direction: row;
+}
+.filler1 h3 {
+    text-align: center;
+    padding: 20px;
 }
 .Footer{
+    display: flex;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-    padding: 0;
+    padding: 20px;
     margin: auto;
-    text-align: justify;
+    text-align: center;
 }
 @media screen and (max-width:800px) {
     .show-menu-btn, .hide-menu-btn{
